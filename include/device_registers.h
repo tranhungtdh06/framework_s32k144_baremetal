@@ -45,7 +45,7 @@
     #define S32K14x_SERIES
 
     /* Specific core definitions */
-    #include "common/s32_core_cm4.h"
+    #include "s32_core_cm4.h"
 
     #if defined(CPU_S32K148)
 
@@ -108,7 +108,7 @@
     #define S32V234_SERIES
 
     /* Specific core definitions */
-    #include "common/s32_core_cm4.h"
+    #include "s32_core_cm4.h"
     /* Register definitions */
     #include "S32V234/include/S32V234.h"
     /* CPU specific feature definitions */
@@ -331,7 +331,7 @@
     #define S32MTV_SERIES
 
     /* Specific core definitions */
-    #include "common/s32_core_cm4.h"
+    #include "s32_core_cm4.h"
 
     /* Register definitions */
     #include "S32MTV/include/S32MTV.h"
