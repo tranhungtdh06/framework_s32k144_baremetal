@@ -70,9 +70,9 @@
         #define S32K144_SERIES
 
         /* Register definitions */
-        #include "S32K144/include/S32K144.h"
+        #include "S32K144.h"
         /* CPU specific feature definitions */
-        #include "S32K144/include/S32K144_features.h"
+        #include "S32K144_features.h"
 
     #elif defined(CPU_S32K142)
 
